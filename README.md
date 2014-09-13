@@ -1,3 +1,3 @@
 Yo!
 
-Checkout [AngularJS](http://beta.coderhunt.com)
+Checkout [CoderHunt Beta](http://beta.coderhunt.com)
