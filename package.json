@@ -3,7 +3,7 @@
   "description": "Token-based AngularJS Authentication",
   "version": "0.5.0",
   "scripts": {
-    "start": "node ./examples/server/node/server.js",
+    "start": "node ./npmstart.js",
     "test": "karma start"
   },
   "homepage": "https://github.com/sahat/satellizer",
