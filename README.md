@@ -1,3 +1,3 @@
 Yo!
 
-Checkout [CoderHunt Beta](http://beta.coderhunt.com)
+This is [CoderHunt Beta](http://beta.coderhunt.com)
