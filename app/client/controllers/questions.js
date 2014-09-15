@@ -20,4 +20,6 @@ angular.module('MyApp')
     //       duration: 3
     //     });
     //   });
+  drawSvg();
   });
+
