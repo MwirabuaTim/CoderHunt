@@ -1,1 +1,1 @@
-examples/server/node/server.js
+app/server/node/server.js

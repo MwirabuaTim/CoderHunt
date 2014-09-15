@@ -9,7 +9,7 @@
 
   var config = {
     logoutRedirect: '/',
-    loginRedirect: '/',
+    loginRedirect: '/questions',
     loginUrl: '/auth/login',
     signupUrl: '/auth/signup',
     signupRedirect: '/login',
