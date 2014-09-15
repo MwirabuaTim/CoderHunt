@@ -259,7 +259,7 @@ app.post('/auth/github', function(req, res) {
   request.get({ url: accessTokenUrl, qs: params }, function(err, response, accessToken) {
     accessToken = qs.parse(accessToken);
 
-    var headers = { 'User-Agent': 'Carbon' };
+    var headers = { 'User-Agent': 'CoderHunt' };
 
     // Step 2. Retrieve profile information about the current user.
     request.get({ url: userApiUrl, qs: accessToken, headers: headers, json: true }, function(err, response, profile) {
