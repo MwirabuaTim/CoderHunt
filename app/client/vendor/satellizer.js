@@ -25,7 +25,7 @@
     google: {
       url: '/auth/google',
       authorizationEndpoint: 'https://accounts.google.com/o/oauth2/auth',
-      redirectUri: window.location.origin + '/auth/google',
+      redirectUri: window.location.origin,
       scope: 'openid profile email',
       scopeDelimiter: ' ',
       requiredUrlParams: ['scope'],
@@ -40,7 +40,7 @@
     facebook: {
       url: '/auth/facebook',
       authorizationEndpoint: 'https://www.facebook.com/dialog/oauth',
-      redirectUri: window.location.origin + '/auth/facebook',
+      redirectUri: window.location.origin + '/',
       scope: 'email',
       scopeDelimiter: ',',
       requiredUrlParams: ['display', 'scope'],
